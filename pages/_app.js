@@ -1,7 +1,10 @@
-import '../styles/globals.css'
+// import '../styles/globals.css'
+import '../styles/mainTailwind.css'
 
-function MyApp({ Component, pageProps }) {
+
+const MyApp = ({ Component, pageProps }) => {
   return <Component {...pageProps} />
 }
 
 export default MyApp
+
